@@ -1,4 +1,4 @@
-POST http://localhost:3001/api/persons/
+POST https://hy-fs-puhelinluettelo.herokuapp.com/api/persons/
 Content-Type: application/json
 
 {
