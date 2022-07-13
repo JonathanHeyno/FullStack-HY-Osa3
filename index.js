@@ -73,24 +73,6 @@ app.delete('/api/persons/:id', (request, response, next) => {
 
 app.post('/api/persons', (request, response, next) => {
   const body = request.body
-  /*
-    if (!body.name) {
-      return response.status(400).json({
-        error: 'name missing'
-      })
-    }
-
-    if (!body.number) {
-        return response.status(400).json({
-          error: 'number missing'
-        })
-      }*/
-
-  /*if (persons.find(person => person.name === body.name)) {
-        return response.status(400).json({
-          error: 'name must be unique'
-        })
-      }*/
 
   const person = new Person({
     name: body.name,
@@ -105,14 +87,6 @@ app.post('/api/persons', (request, response, next) => {
 
 app.put('/api/persons/:id', (request, response, next) => {
   const { name, number } = request.body
-  /*
-    const body = request.body
-
-    const person = {
-      name: body.name,
-      number: body.number,
-    }
-    */
 
   Person.findByIdAndUpdate(request.params.id,
     { name, number },
