@@ -1,5 +1,5 @@
 # FullStack-HY-Osa3
 
-Kurssin tehtävät Osa3.
+Kurssin tehtävät Osa 3. Myös kurssin Osa 11 tehtävät 20 ja 21.
 
-Backend sovellus testattavissa Herokussa [https://hy-fs-puhelinluettelo.herokuapp.com/](https://hy-fs-puhelinluettelo.herokuapp.com/)
+App can be ran at [https://phonebook-fs-part11.fly.dev/](https://phonebook-fs-part11.fly.dev/)
